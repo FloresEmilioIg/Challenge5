@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Challenge5
+
+  profiles:
+    active: dev   # Default profile (can be overridden with system variable)
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    com.example.store: DEBUG

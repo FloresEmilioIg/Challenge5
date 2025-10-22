@@ -11,6 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>Challenge5</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
 	<name>Challenge5</name>
 	<description>An online store created using springboot</description>
 	<url/>
@@ -52,7 +53,14 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		<dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+
+        <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
